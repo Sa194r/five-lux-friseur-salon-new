@@ -1,0 +1,324 @@
+window.SITE_CONFIG = {
+  "brand": {
+    "name": "FIVE LUX FRISEUR SALON",
+    "tagline": "Luxus-Look. Präzision. Stil.",
+    "logoPath": "assets/logo.jpg"
+  },
+  "contact": {
+    "address": "Baubergerstr. 9, 80992 München, Deutschland",
+    "phone": "089 14337878",
+    "email": "info@five-lux-friseur.de",
+    "instagram": "https://www.instagram.com/",
+    "googleBusiness": "https://g.co/",
+    "mapsLink": "https://www.google.com/maps?q=Baubergerstr.+9,+80992+M%C3%BCnchen",
+    "mapEmbedUrl": "https://www.google.com/maps?q=Baubergerstr.+9,+80992+M%C3%BCnchen&output=embed"
+  },
+  "hours": [
+    {
+      "day": "Montag",
+      "hours": "09:00 – 19:00"
+    },
+    {
+      "day": "Dienstag",
+      "hours": "09:00 – 19:00"
+    },
+    {
+      "day": "Mittwoch",
+      "hours": "09:00 – 19:00"
+    },
+    {
+      "day": "Donnerstag",
+      "hours": "09:00 – 19:00"
+    },
+    {
+      "day": "Freitag",
+      "hours": "09:00 – 19:00"
+    },
+    {
+      "day": "Samstag",
+      "hours": "09:00 – 19:00"
+    },
+    {
+      "day": "Sonntag",
+      "hours": "Geschlossen"
+    }
+  ],
+  "whatsapp": {
+    "number": "498857956784",
+    "message": "Hallo, ich möchte einen Termin vereinbaren."
+  },
+  "hero": {
+    "headline": "FIVE LUX FRISEUR SALON",
+    "title": "FIVE LUX FRISEUR",
+    "subtitle": "Premium Schnitte, saubere Konturen und Styling für Damen & Herren – schnell, freundlich und präzise.",
+    "kicker": "FRISEUR SALON IN MÜNCHEN-MOOSACH",
+    "subheadline": "Premium Schnitte, saubere Konturen und Styling für Damen & Herren – schnell, freundlich und präzise."
+  },
+  "highlights": [
+    {
+      "title": "Haarschnitt",
+      "text": "Präzise Schnitte – klassisch bis modern."
+    },
+    {
+      "title": "Lange Haare",
+      "text": "Form, Volumen und Styling mit Gefühl."
+    },
+    {
+      "title": "Bart Styling",
+      "text": "Konturen, Formen, Pflege – passend zu dir."
+    },
+    {
+      "title": "Rasur",
+      "text": "Glatter Abschluss mit hochwertigen Produkten."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Gegründet",
+      "value": "1978"
+    },
+    {
+      "label": "Google Bewertungen",
+      "value": "300+"
+    },
+    {
+      "label": "Öffnungszeiten",
+      "value": "Mo–Sa 09–19"
+    }
+  ],
+  "prices": [
+    {
+      "title": "DAMEN – HAARE",
+      "type": "table",
+      "columns": [
+        "K.",
+        "M.",
+        "L."
+      ],
+      "items": [
+        {
+          "name": "Schneiden",
+          "c1": "28 €",
+          "c2": "33 €",
+          "c3": "38 €"
+        },
+        {
+          "name": "Waschen, Schneiden",
+          "c1": "33 €",
+          "c2": "38 €",
+          "c3": "43 €"
+        },
+        {
+          "name": "Waschen/Schneiden/Föhnen",
+          "c1": "43 €",
+          "c2": "48 €",
+          "c3": "53 €"
+        },
+        {
+          "name": "Waschen/Föhnen/Glätten",
+          "c1": "26 €",
+          "c2": "31 €",
+          "c3": "36 €"
+        },
+        {
+          "name": "Ansatzfarbe",
+          "c1": "32 €",
+          "c2": "37 €",
+          "c3": "42 €"
+        },
+        {
+          "name": "Komplett färben/Tönung",
+          "c1": "38 €",
+          "c2": "46 €",
+          "c3": "54 €"
+        },
+        {
+          "name": "Strähnen / Oberkopf",
+          "c1": "42 €",
+          "c2": "52 €",
+          "c3": "62 €"
+        },
+        {
+          "name": "Strähnen / komplett",
+          "c1": "58 €",
+          "c2": "68 €",
+          "c3": "78 €"
+        },
+        {
+          "name": "Dauerwelle",
+          "c1": "46 €",
+          "c2": "56 €",
+          "c3": "66 €"
+        }
+      ]
+    },
+    {
+      "title": "DAMEN – KOSMETIK & EXTRAS",
+      "type": "list",
+      "items": [
+        {
+          "name": "Gesicht zupfen",
+          "price": "18 €"
+        },
+        {
+          "name": "Augenbrauen (Faden)",
+          "price": "7 €"
+        },
+        {
+          "name": "Wimpern färben",
+          "price": "8 €"
+        },
+        {
+          "name": "Augenbrauen färben",
+          "price": "8 €"
+        },
+        {
+          "name": "Ponyschnitt",
+          "price": "8 €"
+        },
+        {
+          "name": "Haarkur",
+          "price": "6 €"
+        }
+      ]
+    },
+    {
+      "title": "HERREN – SERVICES",
+      "type": "list",
+      "items": [
+        {
+          "name": "Haarschnitt",
+          "price": "18 €"
+        },
+        {
+          "name": "Waschen, Schneiden, Stylen",
+          "price": "22 €"
+        },
+        {
+          "name": "Null Schnitt, Taper Fade, Low Fade",
+          "price": "20 €"
+        },
+        {
+          "name": "Bart rasieren",
+          "price": "14 €"
+        },
+        {
+          "name": "Bart modernisieren",
+          "price": "14 €"
+        },
+        {
+          "name": "Bart kürzen",
+          "price": "9 €"
+        },
+        {
+          "name": "Bart färben",
+          "price": "15 €"
+        },
+        {
+          "name": "Haar färben",
+          "price": "ab 30 €"
+        },
+        {
+          "name": "Strähnen",
+          "price": "ab 30 €"
+        },
+        {
+          "name": "Nasenhaarenentfernung",
+          "price": "4 €"
+        },
+        {
+          "name": "Ohrenhaarenentfernung",
+          "price": "6 €"
+        },
+        {
+          "name": "Augenbrauen zupfen",
+          "price": "7 €"
+        }
+      ]
+    },
+    {
+      "title": "PAKETE & KINDER",
+      "type": "list",
+      "items": [
+        {
+          "name": "Five Lux Paket",
+          "price": "48 €"
+        },
+        {
+          "name": "Kinder",
+          "price": "15 €"
+        }
+      ]
+    }
+  ],
+  "team": {
+    "title": "Team",
+    "members": [
+      {
+        "name": "Rami",
+        "role": "Friseur"
+      }
+    ]
+  },
+  "reviews": {
+    "title": "Kundenstimmen",
+    "items": [
+      {
+        "name": "Errikos Kontogiannis",
+        "date": "2024-09-29",
+        "text": "Sehr guter Friseur und das Preis-Leistung-Verhältnis sehr fair! Ohne Termin hat alles super geklappt."
+      },
+      {
+        "name": "Dennis Hoppe",
+        "date": "2024-09-27",
+        "text": "Sehr angenehmes Klima, Top Service und natürlich einer der besten Haarschnitte."
+      },
+      {
+        "name": "Thomas Roithmeier",
+        "date": "2024-09-20",
+        "text": "Freundlich, sauber, präzise – komme gerne wieder."
+      }
+    ]
+  },
+  "legal": {
+    "impressum": {
+      "business": "FIVE LUX FRISEUR",
+      "owner": "Shihab Majid (Beispiel – bitte anpassen)",
+      "address": "Baubergerstr. 9, 80992 München, Deutschland",
+      "phone": "089 14337878",
+      "email": "info@friseur-barbershop.de",
+      "vat": "146/193/42772"
+    },
+    "disclaimer": "Hinweis: Impressum/Datenschutz bitte mit den korrekten Angaben Ihres Geschäfts vervollständigen."
+  },
+  "gallery": {
+    "title": "Galerie",
+    "subtitle": "Einblicke in unseren Salon – Schnitte, Bart & Atmosphäre.",
+    "images": [
+      {
+        "src": "assets/gallery-01.jpg",
+        "alt": "Salon Atmosphäre"
+      },
+      {
+        "src": "assets/gallery-02.jpg",
+        "alt": "Salon Tools"
+      },
+      {
+        "src": "assets/gallery-03.jpg",
+        "alt": "Fade Schnitt"
+      },
+      {
+        "src": "assets/gallery-04.jpg",
+        "alt": "Bart Konturen"
+      },
+      {
+        "src": "assets/gallery-05.jpg",
+        "alt": "Waschen & Styling"
+      },
+      {
+        "src": "assets/gallery-06.jpg",
+        "alt": "Detail Close-up"
+      }
+    ]
+  }
+};

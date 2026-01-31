@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FIVE LUX FRISEUR</title>
+  <meta name="description" content="FRISEUR SALONshop – Schwarz & Gold. Termine per WhatsApp." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Startseite">
+        <img class="brand__logo" id="logoImg" src="assets/logo.jpg" alt="Logo">
+        <div class="brand__meta">
+          <div class="brand__name" id="brandName">FIVE LUX FRISEUR</div>
+          <div class="brand__tag" id="brandTagline">Luxus-Look. Präzision. Stil.</div>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <a href="#leistungen">Leistungen</a>
+        <a href="#preise">Preise</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#team">Team</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+
+      <div class="header__cta">
+        <a class="btn btn--ghost" id="callBtn" href="#">Anrufen</a>
+        <a class="btn btn--gold" id="waBtnTop" href="#" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero__glow"></div>
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <div class="kicker" id="heroHeadline">FRISEUR SALON IN MÜNCHEN-MOOSACH</div>
+          <h1 class="hero__title" id="heroTitle">Schnitt. Bart. Styling.</h1>
+          <p class="hero__subtitle" id="heroSubtitle">Moderne Looks für Männer und kreative Styles für Frauen – sauber, präzise und mit Liebe zum Detail.</p>
+
+          <div class="hero__buttons">
+            <a class="btn btn--gold btn--lg" id="waBtnHero" href="#" target="_blank" rel="noopener">Termin per WhatsApp</a>
+            <a class="btn btn--ghost btn--lg" id="mapsBtnHero" href="#" target="_blank" rel="noopener">Route öffnen</a>
+          </div>
+
+          <div class="micro" id="heroMicro">Schnelle Antwort • Wunschzeit • Fragen zu Preisen</div>
+          <div class="callout" id="calloutLine">Jetzt anrufen: <a id="calloutPhone" href="#">—</a></div>
+
+          <div class="chips">
+            <div class="chip">
+              <div class="chip__label">Adresse</div>
+              <div class="chip__value" id="addrChip">—</div>
+            </div>
+            <div class="chip">
+              <div class="chip__label">Telefon</div>
+              <div class="chip__value"><a id="phoneChip" href="#">—</a></div>
+            </div>
+            <div class="chip">
+              <div class="chip__label">Öffnungszeiten</div>
+              <div class="chip__value" id="hoursChip">Mo–Sa 09–19</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__panel">
+          <div class="panel">
+            <div class="panel__title">Öffnungszeiten</div>
+            <div class="hours" id="hoursList"></div>
+            <div class="panel__split"></div>
+            <div class="panel__title">Schnellkontakt</div>
+            <div class="panel__actions">
+              <a class="btn btn--gold" id="waBtnPanel" href="#" target="_blank" rel="noopener">WhatsApp</a>
+              <a class="btn btn--ghost" id="callBtnPanel" href="#">Anrufen</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__watermark" aria-hidden="true">FIVE LUX</div>
+    </section>
+
+    <section class="section" id="leistungen">
+      <div class="container section__head">
+        <h2>Leistungen</h2>
+        <p>Friseur-Technik trifft auf moderne Styles.</p>
+      </div>
+      <div class="container cards" id="highlightGrid"></div>
+
+      <div class="container stats" id="statsGrid"></div>
+    </section>
+
+    <section class="section section--alt" id="preise">
+      <div class="container section__head">
+        <h2>Preise</h2>
+        <p>Transparente Preisliste – einfach in <span class="mono">config.json</span> editierbar.</p>
+      </div>
+      <div class="container pricegrid" id="priceGrid"></div>
+    </section>
+
+    
+    <section class="section" id="galerie">
+      <div class="container section__head">
+        <h2 id="galleryTitle">Galerie</h2>
+        <p id="gallerySubtitle">Einblicke in unseren Salon – Schnitte, Bart & Atmosphäre.</p>
+      </div>
+      <div class="container gallery" id="galleryGrid"></div>
+    </section>
+
+<section class="section" id="team">
+      <div class="container section__head">
+        <h2 id="teamTitle">Team</h2>
+        <p>Erfahren. Freundlich. Präzise.</p>
+      </div>
+      <div class="container team" id="teamGrid"></div>
+    </section>
+
+    <section class="section section--alt" id="kontakt">
+      <div class="container section__head">
+        <h2>Kontakt</h2>
+        <p>Besuche uns in München-Moosach oder schreibe uns direkt.</p>
+      </div>
+
+      <div class="container contact">
+        <div class="contact__box">
+          <div class="kv">
+            <div class="kv__row">
+              <div class="kv__k">Adresse</div>
+              <div class="kv__v" id="addrFull">—</div>
+            </div>
+            <div class="kv__row">
+              <div class="kv__k">Telefon</div>
+              <div class="kv__v"><a id="phoneFull" href="#">—</a></div>
+            </div>
+            <div class="kv__row">
+              <div class="kv__k">E-Mail</div>
+              <div class="kv__v"><a id="emailFull" href="#">—</a></div>
+            </div>
+          </div>
+
+          <div class="contact__actions">
+            <a class="btn btn--gold" id="waBtnBottom" href="#" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn btn--ghost" id="mapsBtnBottom" href="#" target="_blank" rel="noopener">Route</a>
+          </div>
+
+          <details class="legal">
+            <summary>Impressum (Kurz)</summary>
+            <div class="legal__inner" id="impressumBox"></div>
+            <div class="legal__hint" id="legalHint"></div>
+          </details>
+        </div>
+
+        <div class="contact__box contact__box--map">
+          <iframe id="mapFrame" title="Google Maps" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="reviews">
+      <div class="container section__head">
+        <h2 id="reviewsTitle">Kundenstimmen</h2>
+        <p>Auszug – du kannst Google-Reviews auch einbinden.</p>
+      </div>
+      <div class="container reviews" id="reviewsGrid"></div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div>© <span id="year"></span> <span id="footerName">FIVE LUX FRISEUR</span></div>
+        <div class="footer__small">Schwarz & Gold • Premium One‑Pager</div>
+      </div>
+    </footer>
+
+    <a class="float" id="waFloat" href="#" target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
