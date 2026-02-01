@@ -284,7 +284,7 @@
     "impressum": {
       "business": "FIVE LUX FRISEUR",
       "owner": "Shihab Majid (Beispiel – bitte anpassen)",
-      address: "Lautensackstraße 2, 80687 München, Deutschland",
+    "address": "Lautensackstraße 2, 80687 München, Deutschland",
       "phone": "089 579557664",
       "email": "info@friseur-barbershop.de",
       "vat": "146/193/42772"
