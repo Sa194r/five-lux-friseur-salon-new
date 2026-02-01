@@ -1,8 +1,8 @@
 # FIVE LUX – Premium Website (DE) | Schwarz & Gold
 
 ## Was ich aus friseur-friseur.de übernommen habe (als Datenquelle)
-- Adresse: Baubergerstr. 9, 80992 München
-- Telefon: 089 14337878
+- Adresse:Lautensackstraße 2, 80687 München, Deutschland
+- Telefon: 089 57955764
 - Öffnungszeiten: Mo–Sa 09:00–19:00
 - Preisliste (Barber + Damen + Pakete/Kinder)
 - Team-Namen (Rami, Aged, Rebin, Nawaf, Sam, Sarhang)
