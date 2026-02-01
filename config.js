@@ -5,8 +5,8 @@ window.SITE_CONFIG = {
     "logoPath": "assets/logo.jpg"
   },
   "contact": {
-    "address": "Baubergerstr. 9, 80992 München, Deutschland",
-    "phone": "089 14337878",
+    "address": "Lautensackstraße 2, 80687 München, Deutschland",
+    "phone": "089 57955764",
     "email": "info@five-lux-friseur.de",
     "instagram": "https://www.instagram.com/",
     "googleBusiness": "https://g.co/",
@@ -284,8 +284,8 @@ window.SITE_CONFIG = {
     "impressum": {
       "business": "FIVE LUX FRISEUR",
       "owner": "Shihab Majid (Beispiel – bitte anpassen)",
-      "address": "Baubergerstr. 9, 80992 München, Deutschland",
-      "phone": "089 14337878",
+      "address": "Lautensackstraße 2, 80687 München, Deutschland",
+      "phone": "089 57955764",
       "email": "info@friseur-barbershop.de",
       "vat": "146/193/42772"
     },
