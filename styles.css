@@ -151,16 +151,22 @@ a{color:inherit;text-decoration:none}
 .pricebox__title{font-weight:900; margin-bottom:12px}
 .pricelist{display:flex; flex-direction:column; gap:10px}
 .priceitem{
-  display:grid; grid-template-columns: 1fr auto; gap:10px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:8px;
+}
   padding:12px 12px;
   border-radius: 18px;
   border:1px solid rgba(255,255,255,.10);
   background: rgba(255,255,255,.03);
 }
-.priceitem_name { 
-  font-weight: 800;
-  font-size: 15px;
+.priceitem_name {
+  font-weight:800;
+  font-size:14px;
+  flex:1;
 }
+
 .priceitem__note{grid-column: 1 / -1; color:var(--muted); font-size:.92rem; margin-top:-4px}
 .priceitem_note {
   font-size: 12px;
@@ -388,7 +394,8 @@ a{color:inherit;text-decoration:none}
     -webkit-overflow-scrolling: touch;
   }
 
-  #priceGrid > * {
-    min-width: 520px;
+ #priceGrid > * {
+  min-width: 100%;
 }
+
 
