@@ -283,13 +283,13 @@
   "legal": {
     "impressum": {
       "business": "FIVE LUX FRISEUR",
-      "owner": ")",
+      "owner": ""
     "address": "Lautensackstraße 2, 80687 München, Deutschland",
       "phone": "089 579557664",
       "email": "info@five-lux-friseur.de",
       "vat": ""
     },
-    "disclaimer":
+    "disclaimer": ""
   },
   "gallery": {
     "title": "Galerie",
