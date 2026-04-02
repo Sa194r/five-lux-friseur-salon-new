@@ -157,9 +157,19 @@ a{color:inherit;text-decoration:none}
   border:1px solid rgba(255,255,255,.10);
   background: rgba(255,255,255,.03);
 }
-.priceitem__name{font-weight:800}
+.priceitem_name { 
+  font-weight: 800;
+  font-size: 15px;
+}
 .priceitem__note{grid-column: 1 / -1; color:var(--muted); font-size:.92rem; margin-top:-4px}
-.priceitem__price{color: var(--gold2); font-weight:900}
+.priceitem_note {
+  font-size: 12px;
+}
+.priceitem_price { 
+  color: var(--gold2); 
+  font-weight: 900;
+  font-size: 14px;
+}
 
 .tablewrap{overflow:auto}
 .table{width:100%; border-collapse:separate; border-spacing:0 10px}
