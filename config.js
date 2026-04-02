@@ -289,7 +289,7 @@ window.SITE_CONFIG = {
       "email": "info@five-lux-friseur.de",
       "vat": ""
     },
-    "disclaimer": 
+    "disclaimer": ""
   },
   "gallery": {
     "title": "Galerie",
