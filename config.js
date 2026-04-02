@@ -5,14 +5,13 @@ window.SITE_CONFIG = {
     "logoPath": "assets/logo.jpg"
   },
   "contact": {
-    "address": "Lautensackstraße 2, 80687 München, Deutschland",
-    "phone": "089 57955764",
-    "email": "info@five-lux-friseur.de",
-    "instagram": "https://www.instagram.com/",
-    "googleBusiness": "https://g.co/",
-    "mapsLink": "https://www.google.com/maps?q=Baubergerstr.+9,+80992+M%C3%BCnchen",
-"mapEmbedUrl": "https://www.google.com/maps?q=Baubergerstr.+9,+80992+M%C3%BCnchen&output=embed"
-  },
+  "address": "Lautensackstraße 2, 80687 München, Deutschland",
+  "phone": "089 57955764",
+  "email": "info@five-lux-friseur.de",
+
+  "mapsLink": "https://maps.google.com/?q=Lautensackstraße+2,+80687+München",
+  "mapEmbedUrl": "https://www.google.com/maps?q=Lautensackstraße+2,+80687+München&output=embed"
+},
   "hours": [
     {
       "day": "Montag",
