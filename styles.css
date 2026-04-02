@@ -412,5 +412,7 @@ a{color:inherit;text-decoration:none}
  #priceGrid > * {
   min-width: 100%;
 }
-
+html, body {
+  overflow-x: hidden;
+}
 
