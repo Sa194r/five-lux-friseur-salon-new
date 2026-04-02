@@ -11,7 +11,7 @@ window.SITE_CONFIG = {
     "instagram": "https://www.instagram.com/",
     "googleBusiness": "https://g.co/",
     "mapsLink": "https://www.google.com/maps?q=Baubergerstr.+9,+80992+M%C3%BCnchen",
-    "mapEmbedUrl": "https://www.google.com/maps?q=Baubergerstr.+9,+80992+M%C3%BCnchen&output=embed"
+"mapEmbedUrl": "https://www.google.com/maps?q=Baubergerstr.+9,+80992+M%C3%BCnchen&output=embed"
   },
   "hours": [
     {
