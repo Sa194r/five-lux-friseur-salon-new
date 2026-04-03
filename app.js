@@ -234,7 +234,7 @@ function renderImpressum(legal){
     // Sections
     renderHighlights(c.highlights);
     renderStats(c.stats);
-    renderPrices(c.prices);
+    // renderPrices(c.prices);
 
     setText('teamTitle', c.team?.title || 'Team');
     renderTeam(c.team);
