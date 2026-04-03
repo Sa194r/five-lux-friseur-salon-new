@@ -279,7 +279,40 @@ a{color:inherit;text-decoration:none}
   .cards{grid-template-columns: 1fr}
   .team{grid-template-columns: repeat(2,1fr)}
 }
+@media (max-width: 768px) {
+  .pricegrid table,
+  .pricegrid thead,
+  .pricegrid tbody,
+  .pricegrid th,
+  .pricegrid td,
+  .pricegrid tr {
+    display: block;
+    width: 100%;
+  }
 
+  .pricegrid thead {
+    display: none;
+  }
+
+  .pricegrid tr {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 10px;
+  }
+
+  .pricegrid td {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+  }
+
+  .pricegrid td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    color: #aaa;
+  }
+}
 
 .callout{
   margin-top:10px;
