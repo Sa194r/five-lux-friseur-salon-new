@@ -489,3 +489,42 @@ a{color:inherit;text-decoration:none}
 .priceitem_price br {
   display: none;
 }
+/* fix table inside screen */
+#priceGrid {
+  overflow-x: hidden;
+}
+
+#priceGrid table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+/* name column */
+#priceGrid td:first-child,
+#priceGrid th:first-child {
+  width: 40%;
+  text-align: left;
+  font-size: 13px;
+}
+
+/* price columns */
+#priceGrid td:not(:first-child),
+#priceGrid th:not(:first-child) {
+  width: 20%;
+  text-align: center;
+  font-size: 13px;
+}
+
+/* prevent breaking lines */
+#priceGrid td {
+  white-space: nowrap;
+}
+
+/* mobile optimization */
+@media (max-width: 768px) {
+  #priceGrid td,
+  #priceGrid th {
+    font-size: 12px;
+    padding: 4px;
+  }
+}
