@@ -480,3 +480,12 @@ a{color:inherit;text-decoration:none}
   transform: scale(1.05);
   transition: 0.3s;
     }
+.priceitem_price {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.priceitem_price br {
+  display: none;
+}
