@@ -234,11 +234,13 @@ function renderImpressum(legal){
     // Sections
     renderHighlights(c.highlights);
     renderStats(c.stats);
+
     renderPrices(c.prices);
-const priceGrid = document.getElementById('priceGrid');
-if (priceGrid) priceGrid.innerHTML = '';
+
+    const priceGrid = document.getElementById('priceGrid');
+    if (priceGrid) priceGrid.innerHTML = '';
+
     setText('teamTitle', c.team?.title || 'Team');
-    renderTeam(c.team);
 
     if(c.gallery){
     setText('galleryTitle', c.gallery.title);
