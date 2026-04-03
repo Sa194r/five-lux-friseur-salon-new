@@ -96,7 +96,12 @@ function renderPrices(sections){
       (sec.items || []).forEach(it => {
         const row = document.createElement('div');
         row.className = 'priceitem';
-        row.innerHTML = `<div class="priceitem__name">${it.name}</div><div class="priceitem__price">${it.price || ''}</div>`;
+        row.innerHTML = `
+  <div class="priceitem__name">${it.name}</div>
+  <div class="priceitem__price">
+    ${it.c1 || ''} ${it.c2 || ''} ${it.c3 || ''}
+  </div>
+`;
         if(it.note){
           const note = document.createElement('div');
           note.className = 'priceitem__note';
