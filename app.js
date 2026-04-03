@@ -237,9 +237,6 @@ function renderImpressum(legal){
 
     renderPrices(c.prices);
 
-    const priceGrid = document.getElementById('priceGrid');
-    if (priceGrid) priceGrid.innerHTML = '';
-
     setText('teamTitle', c.team?.title || 'Team');
 
     if(c.gallery){
