@@ -99,12 +99,12 @@ function renderPrices(sections){
         row.innerHTML = `
   <div class="priceitem__name">${it.name}</div>
   <div class="priceitem__price">
-    ${[
-  it.price,
-  it.c1,
-  it.c2,
-  it.c3
-].filter(Boolean).join(" / ")}
+    ${it.price 
+  ? it.price + " €"
+  : [it.c1 && it.c1 + " €", it.c2 && it.c2 + " €", it.c3 && it.c3 + " €"]
+      .filter(Boolean)
+      .join("   ")
+    }
   </div>
 `;
         if(it.note){
