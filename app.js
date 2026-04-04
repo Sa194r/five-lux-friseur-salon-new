@@ -99,7 +99,7 @@ function renderPrices(sections){
         row.innerHTML = `
   <div class="priceitem__name">${it.name}</div>
   <div class="priceitem__price">
-    ${it.c1 || ''} ${it.c2 || ''} ${it.c3 || ''}
+    ${it.price || ""} ${it.c1 || ""} ${it.c2 || ""} ${it.c3 || ""}
   </div>
 `;
         if(it.note){
