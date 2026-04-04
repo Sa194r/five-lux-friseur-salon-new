@@ -415,9 +415,9 @@ a{color:inherit;text-decoration:none}
 
 
 .priceitem__price {
-  display: block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
+  white-space: nowrap;
+  display: flex;
+  gap: 6px;
 }
 .priceitem {
   display: flex;
