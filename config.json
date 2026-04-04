@@ -73,19 +73,19 @@
     }
   ],
   "stats": [
-    {
-      "label": "Gegründet",
-      "value": "1978"
-    },
-    {
-      "label": "Google Bewertungen",
-      "value": "300+"
-    },
-    {
-      "label": "Öffnungszeiten",
-      "value": "Mo–Sa 09–19"
-    }
-  ],
+  {
+    "label": "Gegründet",
+    "value": "1978"
+  },
+  {
+    "label": "Google Bewertungen",
+    "value": "300+"
+  },
+  {
+    "label": "Öffnungszeiten",
+    "value": "Mo-Sa 09-19"
+  }
+],
   "prices": [
     {
       "title": "DAMEN – HAARE",
