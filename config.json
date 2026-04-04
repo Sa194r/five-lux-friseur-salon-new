@@ -43,10 +43,10 @@
       "hours": "Geschlossen"
     }
   ],
-  "whatsapp": {
-    "number": "4917579557664"
-    "message": "Hallo, ich möchte einen Termin vereinbaren."
-  },
+"whatsapp": {
+  "number": "4917579557664",
+  "message": "Hallo, ich möchte einen Termin vereinbaren."
+},
   "hero": {
     "headline": "FIVE LUX FRISEUR SALON",
     "title": "FIVE LUX FRISEUR",
