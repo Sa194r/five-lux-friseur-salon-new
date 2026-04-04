@@ -414,8 +414,11 @@ a{color:inherit;text-decoration:none}
     }
 
 
-.priceitem__price br {
-  display: none;
+.priceitem__price {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
 }
 /* fix table inside screen */
 
