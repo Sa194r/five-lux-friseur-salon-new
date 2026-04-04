@@ -9,7 +9,7 @@ window.SITE_CONFIG = {
   "phone": "089 57955764",
   "email": "info@five-lux-friseur.de",
 
-  "mapsLink": "https://maps.google.com/?q=Lautensackstraße+2,+80687+München",
+  "mapsLink": "https://www.google.com/maps?q=Lautensackstraße+2,+80687+München"
   "mapEmbedUrl": "https://www.google.com/maps?q=Lautensackstraße+2,+80687+München&output=embed"
 },
   "hours": [
@@ -43,7 +43,7 @@ window.SITE_CONFIG = {
     }
   ],
   "whatsapp": {
-    "number": "498857956784",
+ "number": "491795575664"
     "message": "Hallo, ich möchte einen Termin vereinbaren."
   },
   "hero": {
