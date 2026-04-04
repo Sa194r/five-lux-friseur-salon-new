@@ -419,9 +419,7 @@ a{color:inherit;text-decoration:none}
   visibility: visible !important;
   opacity: 1 !important;
 }
-.price, .priceitem__price, span {
-  display: inline !important;
-}
+
 }
 /* fix table inside screen */
 
