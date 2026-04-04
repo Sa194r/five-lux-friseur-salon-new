@@ -81,7 +81,7 @@ function renderPrices(sections){
         // Support up to 6 columns if ever needed
         const vals = [it.c1, it.c2, it.c3, it.c4, it.c5, it.c6];
         for(let i=0;i<cols.length;i++){
-          tds.push(`<td>${vals[i] || ''}</td>`);
+          tds.push(`<td>${(vals[i] || '').toString().replace(' €', '&nbsp;€')}</td>`);
         }
         tr.innerHTML = tds.join('');
         tbody.appendChild(tr);
