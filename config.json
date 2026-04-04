@@ -236,20 +236,20 @@
         }
       ]
     },
+{
+  "title": "PAKETE & KINDER",
+  "type": "list",
+  "items": [
     {
-      "title": "PAKETE & KINDER",
-      "type": "list",
-      "items": [
-        {
-          "name": "Five Lux Paket",
-          "price": "48 €"
-        },
-        {
-          "name": "Kinder",
-          "price": "15 €"
-        }
-]
+      "name": "Five Lux Paket",
+      "price": "48 €"
+    },
+    {
+      "name": "Kinder",
+      "price": "15 €"
     }
+  ]
+}
   ],
   "team": {
     "title": "Team",
