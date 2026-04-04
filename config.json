@@ -10,8 +10,8 @@
     "email": "info@five-lux-friseur.de",
     "instagram": "https://www.instagram.com/",
     "googleBusiness": "https://g.co/",
-    "mapsLink": "https://www.google.com/maps?q=Baubergerstr.+9,+80992+M%C3%BCnchen",
-    "mapEmbedUrl": "https://www.google.com/maps?q=Baubergerstr.+9,+80992+M%C3%BCnchen&output=embed"
+    "mapsLink": "https://www.google.com/maps?q=FIVE+LUX+FRISEUR+München",
+"mapEmbedUrl": "https://www.google.com/maps?q=FIVE+LUX+FRISEUR+München&output=embed"
   },
   "hours": [
     {
@@ -44,7 +44,7 @@
     }
   ],
   "whatsapp": {
-    "number": "089 579557664",
+    "number": "4917579557664"
     "message": "Hallo, ich möchte einen Termin vereinbaren."
   },
   "hero": {
@@ -283,8 +283,8 @@
   "legal": {
     "impressum": {
       "business": "FIVE LUX FRISEUR",
-      "owner": ""
-    "address": "Lautensackstraße 2, 80687 München, Deutschland",
+"owner": "",
+"address": "Lautensackstraße 2, 80687 München, Deutschland",
       "phone": "089 579557664",
       "email": "info@five-lux-friseur.de",
       "vat": ""
