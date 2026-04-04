@@ -248,7 +248,7 @@
           "name": "Kinder",
           "price": "15 €"
         }
-      ]
+]
     }
   ],
   "team": {
@@ -259,7 +259,7 @@
         "role": "Friseur"
       }
     ]
-  },
+    },
   "reviews": {
     "title": "Kundenstimmen",
     "items": [
