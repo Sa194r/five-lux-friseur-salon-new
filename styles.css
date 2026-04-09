@@ -23,7 +23,7 @@ body{
 
   background-size: 100% 100%, 100% 100%, 100% 100%, 400% 400%;
   animation: bgMove 12s ease infinite;
-}
+
   color:var(--text);
   line-height:1.6;
 }
