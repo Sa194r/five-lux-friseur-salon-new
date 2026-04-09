@@ -516,4 +516,29 @@ a{color:inherit;text-decoration:none}
 /* Subtle lift on hover */
 .card:hover,
 .person:hover,
-.price
+.pricebox:hover {
+  transform: translateY(-4px);
+  transition: 0.3s ease;
+}
+
+
+/* WhatsApp button enhancement */
+.float:hover {
+  box-shadow: 0 0 25px rgba(200,163,84,.5);
+  transform: translateY(-2px);
+}
+
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.8s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
