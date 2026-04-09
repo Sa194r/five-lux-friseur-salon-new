@@ -107,14 +107,21 @@ a{color:inherit;text-decoration:none}
 .hour__time{font-weight:800}
 
 .hero__watermark{
-  position:absolute; right:-20px; bottom:-40px;
+  position:absolute; 
+  right:-20px; 
+  bottom:-40px;
+
   font-family:"Playfair Display", serif;
   font-size: 160px;
   color: rgba(231,210,162,.07);
   letter-spacing:.08em;
+
   transform: rotate(-6deg);
+
   user-select:none;
   pointer-events:none;
+  
+  animation: floatLux 8s ease-in-out infinite;
 }
 
 .section{padding:54px 0}
@@ -450,4 +457,15 @@ a{color:inherit;text-decoration:none}
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
+}
+@keyframes floatLux {
+  0% {
+    transform: translateY(0px) rotate(-6deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(-6deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(-6deg);
+  }
 }
