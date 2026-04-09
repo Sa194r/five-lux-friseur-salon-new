@@ -271,10 +271,8 @@ function renderImpressum(legal){
     alert('Fehler: config.json fehlt oder ist ungültig.');
   }
 })();
-// Scroll reveal
-const reveals = document.querySelectorAll('.reveal');
-
-window.addEventListener('scroll', () => {
+function revealOnScroll() {
+  const reveals = document.querySelectorAll('.reveal');
   const trigger = window.innerHeight * 0.85;
 
   reveals.forEach(el => {
@@ -283,7 +281,10 @@ window.addEventListener('scroll', () => {
       el.classList.add('active');
     }
   });
-});
+}
+
+window.addEventListener('scroll', revealOnScroll);
+window.addEventListener('load', revealOnScroll);
 // Header effect
 const header = document.querySelector('.header');
 
