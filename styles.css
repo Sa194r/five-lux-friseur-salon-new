@@ -442,4 +442,14 @@ a{color:inherit;text-decoration:none}
 .table td {
   white-space: nowrap !important;
 }
+body {
+  background: linear-gradient(270deg, #000000, #0a0a0a, #111111, #000000);
+  background-size: 400% 400%;
+  animation: bgMove 10s ease infinite;
+}
 
+@keyframes bgMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
