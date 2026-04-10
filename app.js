@@ -295,3 +295,10 @@ window.addEventListener('scroll', () => {
     header.classList.remove('scrolled');
   }
 });
+window.addEventListener("scroll", () => {
+  const wm = document.querySelector(".hero__watermark");
+  if (!wm) return;
+
+  let offset = window.scrollY * 0.2;
+  wm.style.transform = `translate(-50%, calc(-50% + ${offset}px)) rotate(-4deg)`;
+});
