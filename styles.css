@@ -605,14 +605,14 @@ body::after {
 }
 @media (max-width: 768px){
   .hero__watermark{
-    font-size: 18vw;
+    font-size: 20vw;
 
-    top: 50%;
+    top: 55%;
     left: 50%;
 
-    transform: translate(-50%, -50%) rotate(-2deg);
+    transform: translate(-50%, -50%) rotate(-4deg);
 
-    opacity: 0.04;
+    opacity: 0.05;
   }
 }
 button,
