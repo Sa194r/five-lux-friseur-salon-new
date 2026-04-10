@@ -302,3 +302,8 @@ window.addEventListener("scroll", () => {
   let offset = window.scrollY * 0.2;
   wm.style.transform = `translate(-50%, calc(-50% + ${offset}px)) rotate(-4deg)`;
 });
+window.addEventListener("scroll", () => {
+  const hero = document.querySelector(".hero");
+  let blur = window.scrollY / 50;
+  hero.style.filter = `blur(${blur}px)`;
+});
