@@ -672,3 +672,7 @@ a:active {
 
   filter: none !important;
 }
+/* Fix blur on sections */
+.section::before{
+  opacity: .15 !important;
+}
