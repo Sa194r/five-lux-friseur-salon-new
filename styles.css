@@ -676,3 +676,6 @@ a:active {
 .section::before{
   opacity: .15 !important;
 }
+.section::before{
+  display: none !important;
+}
