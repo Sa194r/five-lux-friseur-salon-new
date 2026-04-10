@@ -110,9 +110,9 @@ a{color:inherit;text-decoration:none}
   position: absolute;
 
   left: 50%;
-  bottom: 0;
+  top: 50%;
 
-  transform: translateX(-50%) rotate(-4deg);
+  transform: translate(-50%, -50%) rotate(-4deg);
 
   font-family: "Playfair Display", serif;
   font-size: clamp(70px, 20vw, 160px);
