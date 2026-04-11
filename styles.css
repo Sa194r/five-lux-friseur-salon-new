@@ -697,14 +697,4 @@ a:active {
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
 }
-/* Fix blur on sections */
 
-.section::before{
-  opacity: .12;
-}
-#leistungen::before,
-#preise::before,
-#galerie::before,
-#team::before{
-  opacity: .12;
-}
