@@ -33,7 +33,7 @@ a{color:inherit;text-decoration:none}
 .header{
   position:sticky; top:0; z-index:50;
   background: rgba(7,8,11,.70);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(00px);
   border-bottom:1px solid var(--border);
 }
 .header__inner{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:12px 0}
@@ -69,7 +69,7 @@ a{color:inherit;text-decoration:none}
   position:absolute; inset:-120px -120px auto -120px; height:420px;
   background: radial-gradient(circle at 30% 40%, rgba(200,163,84,.32), transparent 55%),
               radial-gradient(circle at 70% 30%, rgba(231,210,162,.16), transparent 56%);
-  filter: blur(6px);
+  filter: blur(00px);
   opacity:.75;
   pointer-events:none;
 }
