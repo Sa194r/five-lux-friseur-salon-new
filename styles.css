@@ -339,12 +339,14 @@ a{color:inherit;text-decoration:none}
   position:absolute;
   inset:0;
   pointer-events:none;
-  opacity: .12;
+  opacity: .08;
+
   background:
-    radial-gradient(600px 200px at 20% 20%, rgba(215,177,95,0.08), transparent 60%),
-    radial-gradient(500px 200px at 80% 80%, rgba(215,177,95,0.06), transparent 60%),
-    linear-gradient(180deg, rgba(0,0,0,0.2), rgba(0,0,0,0.4));
+    radial-gradient(600px 200px at 20% 20%, rgba(215,177,95,0.05), transparent 60%),
+    radial-gradient(500px 200px at 80% 80%, rgba(215,177,95,0.04), transparent 60%),
+    linear-gradient(180deg, rgba(0,0,0,0.1), rgba(0,0,0,0.25));
 }
+
 .section > *{
   position: relative;
   z-index: 1;
