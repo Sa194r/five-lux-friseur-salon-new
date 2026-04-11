@@ -690,11 +690,3 @@ a:active {
 @keyframes shineBtn {
   to { left: 120%; }
 }
-/* Fix blur on hours panel */
-.panel{
-  background: rgba(15,18,32,.85);
-
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
-}
-
