@@ -304,6 +304,6 @@ window.addEventListener("scroll", () => {
 });
 window.addEventListener("scroll", () => {
   const hero = document.querySelector(".hero");
-  let blur = window.scrollY / 50;
+  let blur = window.scrollY / 0,25;
   hero.style.filter = `blur(${blur}px)`;
 });
