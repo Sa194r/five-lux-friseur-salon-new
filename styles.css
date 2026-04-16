@@ -641,7 +641,7 @@ body::after {
 
     transform: translate(-50%, -50%) rotate(-4deg);
 
-    opacity: 0.05;
+    opacity: 0.12;
   }
 }
 button,
