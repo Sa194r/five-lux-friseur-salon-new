@@ -91,6 +91,9 @@ a{color:inherit;text-decoration:none}
 .chip__value{font-weight:800}
 
 .panel{
+  position: relative;
+  z-index: 1;
+
   background: linear-gradient(180deg, rgba(15,18,32,.88), rgba(11,13,22,.80));
   border:1px solid var(--border);
   border-radius: var(--radius);
@@ -124,7 +127,7 @@ a{color:inherit;text-decoration:none}
   pointer-events: none;
 
   animation: floatLux 10s ease-in-out infinite;
-  z-index: 0;
+  z-index: 1;
 }
 
 
@@ -693,8 +696,8 @@ a:active {
 @keyframes shineBtn {
   to { left: 120%; }
 }
-.panel,
-.hours {
+.hour,
+.hour * {
   position: relative;
   z-index: 2;
 }
