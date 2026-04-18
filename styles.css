@@ -715,3 +715,40 @@ a:active {
   to { left: 120%; }
 }
 
+/* price backgrounds */
+
+#herren,
+#damen{
+  position: relative;
+  overflow: hidden;
+}
+
+#herren::before,
+#damen::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  opacity:.22;
+  z-index:0;
+}
+
+#herren::before{
+  background-image:
+  linear-gradient(rgba(0,0,0,.78), rgba(0,0,0,.88)),
+  url("assets/herren-bg.jpg");
+}
+
+#damen::before{
+  background-image:
+  linear-gradient(rgba(0,0,0,.72), rgba(0,0,0,.84)),
+  url("assets/damen-bg.jpg");
+}
+
+#herren > *,
+#damen > *{
+  position:relative;
+  z-index:2;
+}
