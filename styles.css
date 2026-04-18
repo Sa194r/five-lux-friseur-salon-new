@@ -752,3 +752,30 @@ a:active {
   position:relative;
   z-index:2;
 }
+@media (max-width: 768px){
+
+  #herren,
+  #damen{
+    min-height: auto;
+    padding: 25px 15px;
+  }
+
+  #herren::before,
+  #damen::before{
+    background-position: center top;
+    opacity: .18;
+  }
+
+  table{
+    font-size: 14px;
+  }
+
+  th, td{
+    padding: 8px 6px;
+  }
+
+}
+#herren,
+#damen{
+  min-height: 400px;
+}
